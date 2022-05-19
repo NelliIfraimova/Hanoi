@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&family=VT323&display=swap" rel="stylesheet">
+    <title>Tower of Hanoi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <header>
+        <h1>Tower of Hanoi</h1>
+    </header>
+    <div class="score-board">
+        <p># of Disks</br>
+            <select id = "drop" class = "numDisks" onchange="resetGame()">
+            <option id ="d3" selected>3</option>
+            <option id ="d4">4</option>
+            <option id ="d5">5</option>
+            </select>
+        </p>
+
+        <!-- tracker at the top tells moves made so far and minimum moves required based on pieces -->
+        <div><p>Moves made</p>
+            <div id="counter">0</div>
+        </div>
+        <div><p>Minimum moves</p>
+            <div id="minimum">0</div>
+        </div>
+    </div>
+
+        <div class="board">
+            <!-- The game board will need to have three boxes to move around the pieces -->
+            <div class="box" id="boxA">
+            </div>
+            <div class="box" id="boxB">
+            </div>
+            <div class="box" id="boxC">
+            </div>
+        </div>
+    <!-- reset button -->
+    <button class="reset" onclick="resetGame()">Reset</button>
+
+    
+    <div class="rules">
+       <!-- rules -->
+        <p><h2>Rules</h2>The objective of Tower of Hanoi is to move the disks from the tower on the left to the tower on the right. There are 3 simple rules</p>
+        <ol>
+            <li>Only one disk can be moved at a time</li>
+            <li>Each move consists of moving the top disk from one tower to the top of another tower, or an empty tower</li>
+            <li>No disk may be placed on top of a smaller disk</li>
+        </ol>
+    </div>
+    
+    <footer>
+   
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

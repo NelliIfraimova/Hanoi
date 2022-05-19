@@ -1,0 +1,132 @@
+body{
+    width:  1000px;
+    margin: auto;
+    /* color: rgb(249, 238, 141); */
+    background-color: rgb(230, 7, 7);
+    font-family: 'Macondo', cursive;
+}
+
+header{
+    color: rgb(249, 238, 141);
+    font-size:35px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 5px #020202;
+}
+.score-board{
+    position: relative;
+    left: 310px;
+    display:flex;
+    flex-direction: row;
+    color: rgb(13, 13, 13);
+    /* text-shadow: 1px 1px #060505; */
+    font-family: 'Macondo', cursive;
+    font-size: 16px;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 209);
+    width:350px;
+    height: 80px;
+    border: groove #333434 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.numDisks{
+    background-color: rgb(242, 242, 209);
+    color: rgb(0, 40, 40);
+    margin: 25px 25px;
+    border: none;
+}
+.board{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:450px;
+    width:800px;
+    background-color: rgb(242, 242, 209);
+    position: relative;
+    left:80px;
+    border: groove #191b1b 30px;
+}
+.box{
+    width: 300px;
+    height:400px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius: 25px;
+    margin: 10px 0 -10px 0;
+    box-shadow:0 10px black;
+}
+#counter, #minimum, .numdisks {
+    font-size: 15px;
+    text-align: center;
+    margin: 4px;
+}
+
+#winner{
+    font-size: 25px;
+}
+
+h2{
+    color: white;
+    font-size:30px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    
+}
+li{
+    /* list-style-type: none; */
+    margin: 5px 15px;
+}
+.rules {
+    font-size: 20px;
+    background-color: rgb(249, 238, 141);
+    border: groove #4f4f4f 10px;
+    /* border: solid white 2px; */
+    /* border-radius: 15px; */
+    padding: 5px 15px;
+}
+footer{
+    background-color: white)
+}
+.disk{
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius:30px;
+    height: 40px;
+    /* box-shadow:2px 1px rgb(0, 0, 0); */
+}
+#disk1{
+    width: 260px;
+    background-color: #156064;
+}
+#disk2{
+    width: 235px;
+    background-color: #00c49a;
+}
+#disk3{
+    width: 210px;
+    background-color: #f8e16c;
+}
+#disk4{
+    width: 185px;
+    background-color: #ffc2b4;
+}
+#disk5{
+    width: 160px;
+    background-color: #fb8f67;
+}
+
+.reset{
+    text-align: center;
+    margin: 10px auto;
+    padding:5px;
+    background-color: #363736;
+    border: groove white 1px;
+    border-radius: 10px;
+    width: 100px;
+    color:rgb(255, 255, 255);
+    position: relative;
+    left:450px;
+}
