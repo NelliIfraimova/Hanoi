@@ -6,12 +6,10 @@
 ## Links:
 - Wireframe:
 ![](wireframe.jpeg)
-
-
-## Links:
-- Wireframe:
-![](images/wireframe.jpeg)
-
+![](s1.png)
+![](s2.png)
+![](s3.png)
+![](s4.png)
 
 - [Game link](https://fascinating-gnome-585c05.netlify.app/)
 
