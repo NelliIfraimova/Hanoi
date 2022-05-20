@@ -47,9 +47,16 @@ To check for the winner, I added an event listener to the last box that checked 
 ## What left?
 - two modals: one linked to a button that pops up the instructions for the game. The second modal should display the winning message.
 - setting a timer.
+- adding a feature that shows user the solution
+- making the pieces draggable 
 
 ## References
--
+- using jQuery to remove elements for reset 
+(https://stackoverflow.com/questions/12588260/how-to-remove-an-appended-element-with-jquery-and-why-bind-or-live-is-causing-el)
+
+- https://codepen.io/eliortabeka/pen/yOrrxG 
+
+- https://github.com/Douile/tower-of-hanoi
 
 
 
